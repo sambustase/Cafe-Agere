@@ -1,0 +1,130 @@
+.box{
+    display: flex;
+    &__heroSection{
+        display: flex;
+        position: relative;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        .box__imagen{
+            margin: 0;
+            padding: 0;
+        }
+        .box__info{
+            background-color: $button-sesion;
+            display: flex;
+            position: absolute;
+            .boxText{
+                width: 150px;
+                height: 150px;
+                &__title{
+                    font-family: $primary-font;
+                    font-size: $third-size;
+                    text-align: center;
+                }
+                &__description{
+                    font-family: $primary-font;
+                    font-size: $fifth-size;
+                    color: $hover-sesion;
+                    text-align: center;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    
+    .section{
+        display: flex;
+        flex-direction: column;
+        &__title{
+            font-family: $primary-font;
+            font-size: $primary-size;
+            margin-bottom: 5px;
+            padding: 0px 100px;
+        }
+        &__text{
+            font-family: $primary-font;
+            font-size: $four-size;
+            padding: 0px 100px;
+            margin-bottom: 40px;
+        }
+        .arrow{
+            background-color: $bow-yellow;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            position: relative;
+            padding: 0%;
+            .boxArrow{
+                display: flex;
+                position: absolute;
+                justify-content: center;
+                align-items: center;
+                background-color: $box-row;
+                bottom: 20PX;
+                right: 10PX;
+                width: 150px;
+                height: 150px;
+                .boxArrow__right{
+                    color: $button-sesion;
+                    display: flex;
+                    position: absolute;
+                    
+                }
+            }
+        }
+    }
+}
+
+.boxArticle{
+    display: flex;
+    .boxArticleText{
+        height: 250px;
+        width: 300px;
+        margin-top: 40px;
+        margin-right: 50px;
+        padding-right: 50px;
+        padding-left: 50px;
+        &__title{
+            font-family: $primary-font;
+            font-size: $secundary-size;
+        }
+        &__text{
+        font-family: $secundary-font;
+        font-size: $fifth-size;
+        }
+    }
+    .articleBox{
+        background-color: $box-blue;
+        height: 250px;
+        width: 450px;
+        .articleImagen{
+            display: flex;
+            position: relative;
+            top: 50px;
+            right: 40px;
+            &__map{
+                display: flex;
+                position: absolute;
+                height: 250px;
+                width: 400px;
+            }
+        }    
+    }
+    .imagenArticle{
+        display: flex;
+        position: relative;
+        &__coffee{
+            width: 400px;
+            height: 400px;
+        }
+        &__grans{
+            position: absolute;
+            height: 160px;
+            width: 100px;
+            left: -50px;
+
+        }
+    }
+}
+
+    

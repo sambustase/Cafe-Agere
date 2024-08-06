@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.navbar {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+.navbar__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.navbar__box .navbar__imagen {
+  margin-left: 80px;
+  margin-right: 100px;
+  height: 50px;
+}
+.navbar__box .navbar__text {
+  font-family: "PT Mono", sans-serif;
+  color: #989797;
+  font-size: 18px;
+  margin-right: 30px;
+}
+.navbar__box .navbar__text--link {
+  font-family: "PT Mono", sans-serif;
+  color: #989797;
+  font-size: 18px;
+  margin-right: 30px;
+  text-decoration: none;
+  padding-top: 18px;
+}
+.navbar__box .navbar__text--link:hover {
+  color: #000000;
+}
+.navbar__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 100px;
+}
+.navbar__button .navbar__button--sesion {
+  font-family: "PT Mono", sans-serif;
+  background-color: #ffffff;
+  color: #989797;
+  font-size: 16px;
+  height: 40px;
+  border-color: #989797;
+  margin-right: 15px;
+}
+.navbar__button .navbar__button--sesion:hover {
+  color: #000000;
+}
+.navbar__button .navbar__button--registre {
+  font-family: "PT Mono", sans-serif;
+  background-color: #4CA866;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  height: 40px;
+}
+.navbar__button .navbar__button--registre:hover {
+  background-color: #9dcfab;
+  color: #454545;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.box__heroSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.box__heroSection .box__imagen {
+  margin: 0;
+  padding: 0;
+}
+.box__heroSection .box__info {
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+.box__heroSection .box__info .boxText {
+  width: 150px;
+  height: 150px;
+}
+.box__heroSection .box__info .boxText__title {
+  font-family: "PT Mono", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+.box__heroSection .box__info .boxText__description {
+  font-family: "PT Mono", sans-serif;
+  font-size: 16px;
+  color: #454545;
+  text-align: center;
+  margin-right: 10px;
+}
+.box .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.box .section__title {
+  font-family: "PT Mono", sans-serif;
+  font-size: 70px;
+  margin-bottom: 5px;
+  padding: 0px 100px;
+}
+.box .section__text {
+  font-family: "PT Mono", sans-serif;
+  font-size: 18px;
+  padding: 0px 100px;
+  margin-bottom: 40px;
+}
+.box .section .arrow {
+  background-color: #f1DD7B;
+  width: 150px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding: 0%;
+}
+.box .section .arrow .boxArrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e4572E;
+  bottom: 20PX;
+  right: 10PX;
+  width: 150px;
+  height: 150px;
+}
+.box .section .arrow .boxArrow .boxArrow__right {
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.boxArticle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.boxArticle .boxArticleText {
+  height: 250px;
+  width: 300px;
+  margin-top: 40px;
+  margin-right: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.boxArticle .boxArticleText__title {
+  font-family: "PT Mono", sans-serif;
+  font-size: 40px;
+}
+.boxArticle .boxArticleText__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.boxArticle .articleBox {
+  background-color: #5fa5ea;
+  height: 250px;
+  width: 450px;
+}
+.boxArticle .articleBox .articleImagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 50px;
+  right: 40px;
+}
+.boxArticle .articleBox .articleImagen__map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  height: 250px;
+  width: 400px;
+}
+.boxArticle .imagenArticle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.boxArticle .imagenArticle__coffee {
+  width: 400px;
+  height: 400px;
+}
+.boxArticle .imagenArticle__grans {
+  position: absolute;
+  height: 160px;
+  width: 100px;
+  left: -50px;
+}/*# sourceMappingURL=main.css.map */

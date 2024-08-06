@@ -1,0 +1,59 @@
+.navbar{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    &__box{
+        display: flex;
+        .navbar__imagen{
+            margin-left: 80px;
+            margin-right: 100px;
+            height: 50px;
+        }
+        .navbar__text{
+            font-family: $primary-font;
+            color: $navBar-text;
+            font-size: $four-size;
+            margin-right: 30px;
+        }
+        .navbar__text--link{
+            font-family: $primary-font;
+            color: $navBar-text;
+            font-size: $four-size;
+            margin-right: 30px;
+            text-decoration: none;
+            padding-top: 18px;
+        }
+        .navbar__text--link:hover{
+            color: $button-hover;
+        }
+    }
+    &__button{
+        display: flex;
+        margin-right: 100px;
+        .navbar__button--sesion{
+            font-family: $primary-font;
+            background-color: $button-sesion;
+            color: $navBar-text;
+            font-size: $fifth-size;
+            height: 40px;
+            border-color: $navBar-text;
+            margin-right: 15px;
+        }
+        .navbar__button--sesion:hover{
+            color: $button-hover;
+        }
+        .navbar__button--registre{
+            font-family: $primary-font;
+            background-color: $button-registre;
+            color: $button-sesion;
+            font-size: $fifth-size;
+            border: none;
+            height: 40px;
+        }
+        .navbar__button--registre:hover{
+            background-color: $hover-registre;
+            color: $hover-sesion;
+        }
+    }
+}
